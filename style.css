@@ -1,0 +1,90 @@
+@font-face {
+    src: url(fonts/DMSerifDisplay-Regular.ttf);
+    font-family: 'dm-400';
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(fonts/Jost-Regular.ttf);
+    font-family: 'jost-400';
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(fonts/Jost-SemiBold.ttf);
+    font-family: 'jost-600';
+    font-weight: 600;
+}
+
+:root {
+    --black: #292F36;
+    --tan: #CDA274;
+    --white: #f4f0ec;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+body {
+    font-family: 'dm-400';
+    background-color: var(--white);
+}
+
+/* General */
+.container {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.site-title {
+
+}
+
+.header {
+
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .container .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header .container .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;   
+}
+
+.header .container .menu .link {
+    font-size: 20px;
+    font-family: 'jost-400';
+    font-weight: 400;
+    color: var(--black);
+}
