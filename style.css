@@ -19,8 +19,10 @@
 :root {
     --black: #292F36;
     --tan: #CDA274;
-    --white: #f4f0ec;
+    --k: #f4f0ec;
     --grey: #4D5053;
+    --background: #f5e4d5;
+    --white: #ffffff;
 }
 
 * {
@@ -312,4 +314,62 @@ body {
     justify-content: flex-start;
     gap: 20px;
     padding-bottom: 32px;
+}
+
+/* Brand */
+.brand .container {
+    margin: 150px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Our-projects */
+
+.our-projects .container .up-title {
+    text-align: center;
+}
+
+.our-projects .container .title .subtitle {
+    width: 737px;
+    margin: 0 auto;
+    color: var(--grey);
+}
+
+.our-projects .container .wraper {
+    padding-top: 93px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.our-projects .container .wraper .card {
+    width: 450px;
+    gap: 24px;
+}
+
+.our-projects .container .wraper .card:nth-child(3) img {
+    border-bottom-left-radius: 60px;
+}
+
+.our-projects .container .wraper .card img {
+    width: 100%;
+}
+
+.our-projects .container .wraper .card .text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.our-projects .container .wraper .card .arrow {
+    width: 70px;
+    height: 70px;
+    background: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
