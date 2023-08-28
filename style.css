@@ -343,6 +343,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    padding-bottom: 200px;
 }
 
 .our-projects .container .wraper .card {
@@ -365,6 +366,135 @@ body {
 }
 
 .our-projects .container .wraper .card .arrow {
+    width: 70px;
+    height: 70px;
+    background: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+/* Achievement */
+.achievement {
+    background: var(--background);
+    padding: 151px 0;
+}
+
+.achievement .container {
+    text-align: center;
+}
+
+.achievement .container .number {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.achievement .container .number .text {
+    text-align: center;
+    border-right: 1px solid var(--tan);
+    padding-right: 55px;
+}
+
+.achievement .container .number .text:last-child {
+    border-right: 0;
+}
+
+.achievement .container .number .text h2 {
+    color: var(--tan);
+    padding-bottom: 16px;
+    font-size: 85px;
+    font-family: 'dm-400', sans-serif;
+}
+
+.achievement .container .number .text h3 {
+    font-size: 22px;
+    font-family: 'jost-400', sans-serif;
+}
+
+/* News */
+.news .container .title {
+    text-align: center;
+    gap: 12px;
+}
+
+.news .container .title .site-title {
+    font-size: 50px;
+    font-family: 'dm-400', sans-serif;
+    padding-top: 200px;
+}
+
+.news .container .title .subtitle {
+    font-size: 22px;
+    font-family: 'jost-400', sans-serif;
+    width: 811px;
+    margin: 0 auto;
+    padding-bottom: 52px;
+}
+
+.news .container .wraper {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.news .container .wraper .card {
+    width: 382px;
+    border: 1px solid #e7e7e7;
+    padding: 21px;
+    border-radius: 62px;
+}
+
+.news .container .wraper .card:nth-child(2) {
+    background: var(--background);
+}
+
+.news .container .wraper .card:nth-child(2) .bottom .arrow {
+    background: var(--white);
+}
+
+.news .container .wraper .card .img-block {
+    background: url(img/card.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 340px;
+    height: 290px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 20px;
+    border-radius: 62px 62px 0 0;
+
+}
+
+.news .container .wraper .card .img-block p {
+    background: var(--white);
+    border-radius: 8px 8px 8px 0;
+    padding: 11px;
+}
+
+.news .container .wraper .card .subtitle {
+    padding: 21px 0 30px;
+}
+
+
+.news .container .wraper .card .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 21px;
+}
+
+.news .container .wraper .card .bottom p {
+    font-size: 16px;
+    font-family: 'jost-400', sans-serif;
+
+}
+
+.news .container .wraper .card .bottom .arrow {
     width: 70px;
     height: 70px;
     background: var(--background);
