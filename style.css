@@ -503,3 +503,128 @@ body {
     justify-content: center;
     border-radius: 50%;
 }
+
+/* Join */
+.join .container {
+    background: var(--black);
+    text-align: center;
+    padding: 80px 0;
+    border-radius: 70px;
+    color: var(--white);
+    margin: 200px auto;
+}
+
+.join .container .site-title {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'dm-400', sans-serif;
+}
+
+.join .container .subtitle {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'jost-400', sans-serif;
+    padding: 11px 0 32px;
+}
+
+.join .container .btn {
+    background: var(--tan);
+    border-radius: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'jost-600', sans-serif;
+    padding: 26px 32px;
+    color: var(--white);
+}
+
+.join .container .btn i {
+    color: var(--black);
+}
+
+/* Footer */
+.footer .container {
+    text-align: center;
+    
+}
+
+
+.footer .container .site-title {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'dm-400', sans-serif;
+}
+
+.footer .container p {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'jost-400', sans-serif;
+    width: 100%;
+    padding: 18px 0 31px;
+}
+
+.footer .container .subtitle {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'dm-400', sans-serif;
+    width: 393px;
+    margin: 0px auto;
+    padding: 30px 0 50px;
+}
+
+.footer .container .wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .container .footer-item {
+    width: 130px;
+    background: var(--tan);
+    border-radius: 20px;
+}
+
+.footer .container .footer-item li{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'jost-400', sans-serif;
+    padding: 15px;
+}
+
+.footer .container li a{
+    color: var(--black);
+}
+
+.footer .container .icon {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    gap: 54px;
+}
+
+.footer .container .wraper .calls-links {
+    background: var(--tan);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px 0;
+}
+
+.footer .container .wraper .calls-links li {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'jost-400', sans-serif;
+    padding-bottom: 20px;
+}
+
+.footer .container .wraper .calls-links .icon i {
+    font-size: 50px;
+    color: var(--white);
+    padding: 0 10px;
+}
+
+.footer .end {
+    text-align: center;
+    margin: 20px auto 26px;
+    border-top: 2px solid var(--tan);
+    color: var(--grey);
+}
